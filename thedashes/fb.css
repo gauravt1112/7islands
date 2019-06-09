@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {margin:0;padding:0}
+/* mac hide \*/
+html,body{height:100%;width:100%;}
+/* end hide */
+body {
+	background-color: #775528;
+	text-align:center;
+	/*min-height:430px;/* for good browsers*/
+	min-width:960px;/* for good browsers*/
+}
+.outer{
+	position:relative;
+	overflow:hidden;
+	height:100%;
+	width:100%;
+	display:table;
+	vertical-align:middle;
+}
+.container {
+	text-align: center;
+	position:relative;
+	vertical-align:middle;
+	display:table-cell;
+	/*height: 430px;*/
+}
+.inner {
+	/*width: 640px;
+	height: 430px;*/
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	border:0px solid #000;
+}
+
+.canvas {
+	position: absolute;
+	width: 100%;/*640px;*/
+	height: 100%;/*430px;*/
+}
+
+.add-div {
+	position: relative;
+	width: 283px;
+	height: 274px;
+	top: 155px;
+}
+/* not required for demo */
+p,h1{margin-bottom:1em}
+.header{margin-right:0}
+.maintxt{text-align:left;margin:1em;}
+
